@@ -1,0 +1,292 @@
+
+header{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7),
+     rgba(0, 0, 0, 0.7)) ,
+     url("img/hero.jpg");
+     height: 790.9px;
+     width: 1527.5px;
+     background-size:100% 100% ;   
+     margin-left: -1em;
+     margin-right: 0em;
+     margin-top: -0.5em;
+     border: 0;
+}   
+#logo{
+    margin-left: 50px;
+    height: 120px;
+    width: auto;
+    padding-top: 20px;
+    float: left;
+    padding-left: 100px;
+}
+#menu{
+    display: inline;
+    text-align:center;
+   padding-right: 50px;
+    margin-left: 500px;
+    list-style: none;
+   
+}
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-family:'Lato', sans-serif;
+    display:inline-block;
+    padding-right:10px;
+    
+}
+#thanh{
+    display:inline;
+    max-width: 1140px;
+    
+}
+#menu li{
+    display: inline;
+    padding-right: 30px;
+    float: right ;
+    margin-top: 55px;
+    left: 1000px;
+    display:inline;
+    
+}
+#tieude h1{
+   padding-top: 300px;
+   padding-left: 200px;
+   font-family:'Lato','arial',sans-serif;
+   font-weight: lighter;
+   color: aliceblue;
+   font-size: 240%;
+   word-spacing: 4px;
+   letter-spacing: 1px;
+   font-weight: 300;  
+}
+#bt1{
+    border-radius: 20px;
+    cursor: pointer;
+    height:43px;
+    width:180px;
+    margin-left: 200px;
+    background-color: rgb(242, 150, 37);
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: lighter;
+}
+#bt2{
+    border-radius: 28px;
+    cursor: pointer;
+    height:43px;
+    width:180px;
+    margin-left: 20px;
+    background-color: rgba(242, 150, 37, 0);
+    color: rgb(242, 150, 37);
+    border: rgb(242, 150, 37) solid 1px;
+    font-size: medium;
+    font-weight: lighter;
+}
+#bt1:hover{
+    background-color: rgb(215, 133, 32);
+}
+#bt2:hover{
+    background-color:rgb(215, 133, 32) ;
+    color: aliceblue;
+}
+#title h3{
+     text-align: center;
+     font-family:'Lucida Sans Unicode',
+     'Lucida Grande';
+     color: rgb(97, 96, 96);
+     font-weight: lighter;
+     font-size: xx-large;
+     padding-top: 25px;
+     
+}
+#title hr{
+    display: block;
+    height: 2px;
+    background-color: #e67622;
+    
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#title p{
+   
+    font-family:'Lucida Sans Unicode',
+    'Lucida Grande';
+    color: rgb(97, 96, 96);
+    margin-left: 400px;
+    margin-right: 380px;
+    padding-top: 15px;
+}
+#pic1 {
+    width: 270px;
+    height: 200px;
+  display: block;
+    float: left;
+   
+    font-family:'Lucida Sans Unicode',
+    'Lucida Grande';
+    padding-left: 150px;
+    text-align: justify;
+}
+#pic1 h2{
+    padding-top: 9px;
+    width: 300px;
+}
+main{
+    color: rgb(97, 96, 96);
+    font-family: 'Lucida Sans Unicode',
+    'Lucida Grande';
+}
+#pic2{
+    width: 270px;
+    height: 200px;
+  display: block;
+    float: left;
+    padding-left: 50px;
+    padding-top: 15px;
+    text-align: justify;
+    
+}
+#pic2 h2 {
+   padding-top: 5px;
+   width: 300px;
+}
+
+#pic2 img{
+    padding-top: -10px;
+    
+}
+#pic1 img{
+padding-right: 100px;
+}
+#pic3{
+    width: 250px;
+    height: 200px;
+  display: block;
+    float: left;
+    padding-left: 50px;
+    padding-top: 15px;
+    text-align: justify;
+}
+#pic4 {
+    width: 250px;
+    height: 200px;
+  display: block;
+    float: left;
+    padding-left: 50px;
+    padding-top: 15px; 
+    text-align: justify;  
+}
+#danhmuc{
+    padding-top: 30px;
+}
+li {
+ display: inline;
+}
+.meal img{
+    width: 370px;
+    height: auto;
+    border: none;
+    vertical-align: middle;
+    line-height: 0;
+    border-style: none;
+    filter:brightness(75%);
+   
+}
+#food{
+    padding-top: 450px;     
+}
+#dowload hr{
+    display: block;
+    height: 1px;
+    background-color: #e67622;
+    
+    width: 100px;
+    margin: 0 auto;
+    
+}
+#dowload h1{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: -2px;
+}
+.step h2{
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+    margin-top: -5px;
+}
+#dowload img{
+    display:inline;
+    padding-left: 500px;
+    
+}
+.step{
+    display:block;
+    float:inherit;   
+    margin: 1% 0 1% 1.6%;
+    padding-left: 780px;
+    padding-bottom: 15px;
+    margin-right: 230px;
+    
+}
+#dowload{
+    background-color: #f4f4f4;
+    padding-bottom: 100px;
+}
+#one{
+   margin-top: -400px; 
+   
+    
+}
+#two{
+    
+   
+    text-align: justify;
+}
+#dow{
+  padding-top: 70px;
+  text-align: left;
+  display: inline-block;
+}
+#three{   
+    text-align: justify;
+}
+.dow p{
+    font-size: 24px;
+}
+#app{
+    padding-left: 300px;
+    cursor: pointer;
+}
+#and{
+    padding-left: 500px;
+    margin-top: -90px;
+    cursor: pointer;
+}
+#appdow{
+    display: inline;
+}
+.content{
+    display:inline-flex;  
+}
+#post hr{
+    display: block;
+    height: 1px;
+    background-color: #e67622;   
+    width: 100px;
+    margin: 0 auto;
+}
+#post img{
+    
+}
+
